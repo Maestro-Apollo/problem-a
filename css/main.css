@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #e7ebf0;
+    font-style: Roboto, sans-serif;
+}
+
+.card {
+    border-bottom: 2px solid rgb(173, 153, 153);
+    box-shadow: 0.5px 0 0 0 rgb(173, 153, 153);
+    margin: 30vh auto;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card__header {
+    padding: 20px;
+    display: flex;
+}
+
+.card__avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: orangered;
+    /* border: 3px solid #000; */
+    color: #fff;
+    text-align: center;
+    font: 30px Roboto, sans-serif;
+}
+
+.card__header-content {
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.card__header-content span {
+    display: block;
+}
+
+.card__subtitle {
+    color: rgb(137, 130, 130);
+}
+
+.card__copy {
+    padding: 20px;
+    font-style: Roboto, sans-serif;
+    /* font-size: 20px; */
+}
+
+.card__action {
+    margin-top: 10px;
+    margin-left: auto;
+}
